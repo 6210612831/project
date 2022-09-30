@@ -1,0 +1,135 @@
+.btn-login{
+    background-color: white;
+    margin-left: 1.3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: black;
+    width: 150px;
+    transition-duration: 0.4s;
+}
+.btn-login:hover{
+    background-color: black;
+    color: white;
+    transition-duration: 0.4s;
+}
+.btn-login1 {
+    background-color: white;
+    margin-left: 1.3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: black;
+    width: 150px;
+    transition-duration: 0.4s;
+}
+
+.btn-login1:hover {
+    background-color: #412b53;
+    color: white;
+    transition-duration: 0.4s;
+}
+.btn-services{
+    background-color: black;
+    margin-left: 1.3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: white;
+    width: 150px;
+    height: 40px;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    
+}
+.btn-services:hover{
+    color: white;
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    bottom: 140px;
+    transition-duration: 0.5s;
+}
+.btn-services:hover:before{
+    background-color: black;
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: black;
+    bottom: -5px;
+    left: 43%;
+    transform: rotate(45deg);
+}
+h1{
+    font-size: 60px;
+    margin: 0.3em;
+}
+h2{
+    margin:0.4em;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    color: black;
+}
+.p1 {
+    margin-left: 1.3em;
+    margin-top: 1.5em;
+    font-size: 18px;
+}
+.p2{
+    margin-top: 1em;
+    font-size: 25px;
+}
+.p3{
+    font-size: 45px;
+}
+.pw{
+    color: white;
+}
+.py{
+    color: #FAD02C;
+}
+.bg-services{
+    background-color: rgba(128, 0, 128, 0);
+    transition-duration: 0.8s;
+}
+.bg-services:hover {
+    background-color: #412b53;
+    transition-duration: 0.8s;
+}
+
+.dot {
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    margin-left: 9em;
+    margin-top: 3em;
+    
+}
+
+.size-box{
+    margin-left: 2em;
+    margin-bottom: 2em;
+    width: 400px;
+    height: 300px;
+}
+
+.border-card{
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: white;
+}
+
+.img1{
+    height: 600px; 
+    width: 600px;
+    margin: 3em;
+}
+
+.grad1 {
+    background-image: linear-gradient(#5184cf, #050A30);
+}
